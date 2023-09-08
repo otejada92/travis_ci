@@ -5,8 +5,11 @@ function sleep(ms) {
 async function main() {
   while(true) {
     console.log('Containers rule!');
+    console.log(process.env.NAME);
     await sleep(5000);
   }
+
+  process.env
 }
 
 main();
